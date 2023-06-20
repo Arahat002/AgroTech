@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AGROTECH</string>
+    <string name="dash">AGROTECH</string>
+    <string name="temp">Temperature</string>
+    <string name="home">Home</string>
+    <string name="hum">Humidity</string>
+
+</resources>
