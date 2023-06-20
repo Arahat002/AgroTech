@@ -49,8 +49,29 @@ Follow the installation instructions below to set up each component of the AgroT
 1. Clone the repository: `git clone https://github.com/Arahat002/AgroTech.git`
 2. Set up a web server with PHP support.
 3. Create a MySQL database and import the provided SQL file.
-4. Update the database connection credentials in the PHP files (`agrotech.php`, `emaildb.php`).
-5. Open `agrotech.php` in a web browser to access the AgroTech dashboard.
+4. Create the `EmailData` table by executing the following SQL query:
+```sql
+CREATE TABLE EmailData (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NOT NULL,
+  thresholdtemp_above DECIMAL(4,1) NOT NULL,
+  thresholdtemp_below DECIMAL(4,1) NOT NULL,
+  thresholdhum_above INT NOT NULL,
+  thresholdhum_below INT NOT NULL
+);
+```
+5. Create the `Sensor` table by executing the following SQL query:
+```sql
+CREATE TABLE Sensor (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    value1 VARCHAR(10),
+    value2 VARCHAR(10),
+    value3 VARCHAR(10),
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+```
+6. Update the database connection credentials in the PHP files (`agrotech.php`, `emaildb.php`).
+7. Open `agrotech.php` in a web browser to access the AgroTech dashboard.
 
 ## Usage
 
