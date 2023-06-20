@@ -83,18 +83,15 @@ Follow the installation instructions below to set up each component of the AgroT
 
 ### Android Application:
 
-![AndroidAppHomePage](https://github.com/Arahat002/AgroTech/assets/29233757/7fada73a-9750-4e75-b7a5-3d2ba9e7119a)
-
-![AndroidAppTempPage](https://github.com/Arahat002/AgroTech/assets/29233757/92af11ad-3a1a-490e-ad14-6c1ba42a99db)
-
+| Home Page  | Temperature Page |
+| ------------- | ------------- |
+|<img src="Images/AndroidAppHomePage.png" width="200"> | <img src="Images/AndroidAppTempPage.png" width="200"> |
 
 ### Web App:
 
-![Home](https://github.com/Arahat002/AgroTech/assets/29233757/ac5700fb-bbe6-4c70-ad2f-e32af27baa91)
-
-![HomeEmail](https://github.com/Arahat002/AgroTech/assets/29233757/9ff99b18-0a29-4e97-b01e-2ddc0f5ac26f)
-
-![TempPage](https://github.com/Arahat002/AgroTech/assets/29233757/9d31d8ac-4f47-4a6c-b4ee-fc530e07724a)
+| Home  | Add Email | Temperature Page |
+| ------------- | ------------- | ------------- |
+| <img src="Images/Home.png" width="600">  | <img src="Images/HomeEmail.png" width="600">  | <img src="Images/TempPage.png" width="600">  |
 
 
 ## Contributing
