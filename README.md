@@ -106,7 +106,7 @@ CREATE TABLE Sensor (
 
 | Home Page  | Temperature Page |
 | ------------- | ------------- |
-|<img src="Images/AndroidAppHomePage.png" width="200"> | <img src="Images/AndroidAppTempPage.png" width="200"> |
+|<img src="Images/AndroidAppHomePage.png" width="200"> | <img src="Images/AndroidAppTempPage.png" width="180"> |
 
 ### Web App:
 
